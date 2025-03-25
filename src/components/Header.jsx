@@ -22,7 +22,7 @@ function Header() {
           <span className="text-gray-300">SOFT</span>
         </div>
       </div>
-      <div className="menu hidden md:flex">
+      <div className="menu hidden md:flex z-99">
         <ul className="flex gap-5">
           <li className="text-white hover:text-blue-500  ">HOME</li>
           <li className="text-white hover:text-blue-500  ">MENU</li>
@@ -35,7 +35,7 @@ function Header() {
 
       {/* Mobile Menu Button */}
       <button
-        className="md:hidden text-white text-2xl"
+        className="md:hidden text-white text-2xl z-99"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         ☰
@@ -43,7 +43,7 @@ function Header() {
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="absolute top-16 right-6 bg-black border border-gray-700 w-48 rounded-lg shadow-lg md:hidden">
+        <div className="z-99 absolute top-16 right-6 bg-black border border-gray-700 w-48 rounded-lg shadow-lg md:hidden">
           <ul className="flex flex-col gap-4 p-4">
             {["HOME", "MENU", "MAKE A RESERVATION", "CONTACT US"].map(
               (item) => (

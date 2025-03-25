@@ -13,8 +13,7 @@ function Contact() {
   return (
     <>
      <div className="bg-black text-white py-10 flex flex-col items-center px-4">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Contact Section */}
+      <div className="max-w-6xl w-full gap-y-10 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="border border-gray-600 rounded-lg p-6 text-center">
           <h3 className="text-blue-400 font-semibold mb-2">CONNECT WITH US</h3>
           <p className="text-gray-400 flex justify-center items-center gap-3">
@@ -27,7 +26,6 @@ function Contact() {
           </p>
         </div>
 
-        {/* Logo & Social Media Section */}
         <div className="border border-gray-600 rounded-lg p-6 text-center relative">
           <div className="flex justify-center">
             <img
@@ -51,7 +49,6 @@ function Contact() {
           </div>
         </div>
 
-        {/* Address Section */}
         <div className="border border-gray-600 rounded-lg p-6 text-center">
           <h3 className="text-blue-400 font-semibold mb-2">FIND US</h3>
           <div className="text-gray-400 flex justify-center items-center gap-3">
