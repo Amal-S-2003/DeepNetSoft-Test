@@ -5,11 +5,11 @@ function Banner() {
   const navigate = useNavigate();
   return (
     <div
-      className="text-white mt-[-35px] py-28 text-center  flex flex-col items-center justify-center  bg-cover bg-center"
+      className="text-white mt-[-35px] py-28 text-center  flex flex-col items-center justify-center  bg-cover bg-no-repeat bg-center"
       style={{
         backgroundImage: "url('/firstbanner.png')",
         backgroundPosition: "top",
-        backgroundSize: "120%",
+        backgroundSize: "140%",
       }}
     >
       <div className="absolute inset-0 bg-black opacity-80"></div>
