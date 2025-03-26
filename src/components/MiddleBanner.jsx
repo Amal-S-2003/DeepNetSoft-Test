@@ -23,45 +23,46 @@ function MiddleBanner() {
   }, [selectedMenu]);
   return (
     <>
-      <div className=" relative p-10 md:p-32 bg-[url('./middleBanner.jpg')] bg-cover bg-center overflow-hidden">
+      <div className=" relative p-5 md:p-32 bg-[url('./middleBanner.jpg')] bg-cover bg-center overflow-hidden">
         <div className="absolute inset-0 bg-black  opacity-80"></div>
+        <div className=" left-0 absolute hidden md:flex flex-col h-[95%] py-10 inset-0  justify-between ">
+
         <img
-          className="w-24 absolute hidden md:block opacity-20"
-          style={{ left: "0px", top: "50" }}
+          className="w-24  "
           src="./chicken.png"
           alt="chicken"
         />
         <img
-          className="w-24 absolute hidden md:block  opacity-20"
-          style={{ left: "0px", top: "300px" }}
+          className="w-24 "
           src="./bottle.png"
           alt="bottle"
         />
         <img
-          className="w-18 absolute hidden md:block  opacity-20"
-          style={{ left: "0px", bottom: "50px" }}
+          className="w-18 "
           src="./pizza.png"
           alt="pizza"
         />
+        </div>
+        <div className=" top-0 right-0 absolute hidden md:flex flex-col h-[95%] py-10   justify-between ">
+
         <img
-          className="w-24 absolute hidden md:block  opacity-20"
-          style={{ right: "0px", top: "50px" }}
+          className="w-24"
           src="./fish.png"
           alt="fish"
         />
         <img
-          className="w-24 absolute hidden md:block  opacity-20"
-          style={{ right: "0px", top: "300px" }}
+          className="w-24"
           src="./glass.png"
           alt="glass"
         />
         <img
-          className="w-24 absolute hidden md:block  opacity-20"
-          style={{ right: "0px", bottom: "50px" }}
+          className="w-24"
           src="./cook.png"
           alt="cook"
         />
-        <div className="box  text-white relative border-2 border-white  p-15">
+                </div>
+
+        <div className="box  text-white relative border-2 border-white m-10  p-15">
           <img
             style={{ width: "190px", left: "-50px" }}
             className="absolute top-[-100px] md:top-[-150px] scale-50 md:scale-100  "

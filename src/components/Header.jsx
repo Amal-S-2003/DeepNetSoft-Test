@@ -49,7 +49,7 @@ function Header() {
               (item) => (
                 <li
                   key={item}
-                  className="text-white hover:text-red-500 transition duration-300 cursor-pointer"
+                  className="text-white hover:text-blue-500 transition duration-300 cursor-pointer"
                 >
                   {item}
                 </li>
